@@ -8,10 +8,17 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import Necessary Libraries: Import NumPy, pandas, and StandardScaler for numerical operations, data handling, and feature scaling, respectively.
+
+2.Define the Linear Regression Function: Create a linear regression function using gradient descent to iteratively update parameters, minimizing the difference between predicted and actual values.
+
+3.Load and Preprocess the Data: Load the dataset, extract features and target variable, and standardize both using StandardScaler for consistent model training.
+
+4.Perform Linear Regression: Apply the defined linear regression function to the scaled features and target variable, obtaining optimal parameters for the model.
+
+5.Make Predictions on New Data: Prepare new data, scale it, and use the trained model to predict the target variable, transforming predictions back to the original scale.
+
+6.Print the Predicted Value
 
 ## Program:
 ```
@@ -103,38 +110,38 @@ print(y_prednew)
 
 ## Output:
 
-READ THE FILE AND DISPLAY
+## READ THE FILE AND DISPLAY
 
 
 ![6 1](https://github.com/user-attachments/assets/278b473e-8b11-4ca7-8f64-d001edf7a38c)
 
-CATEGORIZING COLUMNS
+## CATEGORIZING COLUMNS
 
 
 ![6 2](https://github.com/user-attachments/assets/2a5b71ae-bcf5-43a3-80f5-875018135dc2)
 
-LABELLING COLUMNS AND DISPLAYING DATASET
+## LABELLING COLUMNS AND DISPLAYING DATASET
 
 
 ![6 3](https://github.com/user-attachments/assets/09c14fbe-a8f7-4046-ae02-fa457bb8517b)
 
-DISPLAY DEPENDENT VARIABLE
+## DISPLAY DEPENDENT VARIABLE
 
 
 ![6 4](https://github.com/user-attachments/assets/8ff47fc4-4b7f-4bc8-a7a4-f10fefbef4a1)
 
-PRINTING ACCURACY
+## PRINTING ACCURACY
 
 
 ![6 5](https://github.com/user-attachments/assets/f5705bf6-7423-4b37-9865-e79b732d9576)
 
-PRINTING Y
+## PRINTING Y
 
 
 ![6 6](https://github.com/user-attachments/assets/914227e2-7f68-45fa-98c8-b28330b581be)
 
 
-PRINTING Y-PRED_NEW
+## PRINTING Y-PRED_NEW
 
 
 ![6 7](https://github.com/user-attachments/assets/1664c6fa-9e50-4e80-8c83-77d407ae073b)
